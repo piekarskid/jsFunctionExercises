@@ -1,0 +1,69 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background:linear-gradient(to right, #000046, #1cb5e0);
+    text-align: center;
+    
+}
+h1{
+    color: yellow;
+    font-size: 50px;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h2{
+    color: yellow;
+    font-size: 30px;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+}
+h3{
+    margin-top: 0%;
+    letter-spacing: 1.5px;
+    color: yellow;
+    font-size: 25px;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button{
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    color: yellow;
+    margin: 8px;
+    padding: 5px;
+    background: transparent;
+    border: 3px solid rgb(111, 13, 121);
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.8s;
+}
+button:hover{
+    background-color: yellow;
+    color: rgb(111, 13, 121);
+}
+.tasks{
+    display: none;
+    width: 85%;
+    flex-direction: column;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: inline;
+}
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 1.5px;
+    font-size: 25px;
+  }
+  .code{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 3px;
+    font-size: 40px;
+  }
